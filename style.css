@@ -1,0 +1,64 @@
+.e {
+  align-items: center;
+
+  display: flex;
+  gap: 200px;
+}
+.e a {
+  color: #ffffff;
+}
+.adaba {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #272343;
+  height: 20vh;
+  width: 100vw;
+}
+header {
+  background-color: #272343;
+  display: flex;
+  height: 20vh;
+  width: 100vw;
+}
+* {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 739;
+  font-style: normal;
+  margin: 0%;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  height: 150vh;
+  width: 100vw;
+}
+.imgs {
+  width: 30vw;
+  height: 40vh;
+}
+.smth {
+  color: #ffffff;
+}
+main div {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.tf {
+  width: 10vw;
+  height: 20vh;
+}
+.plans {
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+.videos {
+  
+  width: 100px;
+  height: 100px;
+}
