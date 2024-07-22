@@ -2,7 +2,7 @@
   align-items: center;
 
   display: flex;
-  gap: 200px;
+  gap: 175px;
 }
 .e a {
   color: #ffffff;
@@ -31,7 +31,7 @@ header {
 main {
   display: flex;
   flex-direction: column;
-  height: 150vh;
+  height: 200vh;
   width: 100vw;
 }
 .imgs {
