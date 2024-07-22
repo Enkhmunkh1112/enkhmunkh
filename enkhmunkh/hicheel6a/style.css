@@ -1,0 +1,74 @@
+.day{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+
+
+ 
+}
+h1{
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(96,96,96,1) 100%); 
+    align-self:center;
+}
+.why{
+    display: flex;
+    flex-direction: row;
+    background-color: aliceblue;
+    width: 100px;
+    height: 30px;
+    font-size: large;
+}
+.night1{
+    width: 25vh;
+    height: 20vh;
+    background: rgb(196,108,255);
+    background: linear-gradient(90deg, rgba(196,108,255,1) 0%, rgba(255,104,104,1) 48%, rgba(255,202,127,1) 92%); 
+}
+.idk{
+    flex-wrap: wrap;
+    
+    height: 60vh;
+    width: 60vh;
+    display: flex;
+    gap: 10px;
+    
+    
+}.night2{
+    background: rgb(196,108,255);
+    background: linear-gradient(90deg, rgba(196,108,255,1) 0%, rgba(255,104,104,1) 48%, rgba(255,202,127,1) 92%); 
+    width: 95vh;
+    height: 10vh;
+    
+}
+.night3{
+    background: rgb(196,108,255);
+    background: linear-gradient(90deg, rgba(196,108,255,1) 0%, rgba(255,104,104,1) 48%, rgba(255,202,127,1) 92%); 
+    width: 95vh;
+    height: 10vh;
+}
+.night4{
+    width: 95vh;
+    height: 10vh;
+    background: rgb(196,108,255);
+    background: linear-gradient(90deg, rgba(196,108,255,1) 0%, rgba(255,104,104,1) 48%, rgba(255,202,127,1) 92%);
+
+}
+.night5{
+    width: 95vh;
+    height: 10vh;
+    background: rgb(196,108,255);
+    background: linear-gradient(90deg, rgba(196,108,255,1) 0%, rgba(255,104,104,1) 48%, rgba(255,202,127,1) 92%); 
+}
+.night6{
+    width: 95vh;
+    height: 10vh;
+    background: rgb(196,108,255);
+    background: linear-gradient(90deg, rgba(196,108,255,1) 0%, rgba(255,104,104,1) 48%, rgba(255,202,127,1) 92%); 
+}
+.night7{
+    width: 95vh;
+    height: 10vh;
+    background: rgb(196,108,255);
+    background: linear-gradient(90deg, rgba(196,108,255,1) 0%, rgba(255,104,104,1) 48%, rgba(255,202,127,1) 92%); 
+}
