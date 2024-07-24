@@ -1,0 +1,88 @@
+.dalgal1{
+    background-color: aquamarine;
+    width: 80vh;
+    height: 80vh;
+    gap: 10px;
+    align-items: center;
+    display: flex;
+}
+.yellownt{
+    background-color: rgb(229, 255, 0);
+    width: 20vh;
+    height: 10vh;
+}
+.dasgal2{
+   background-color: aquamarine;
+    width: 80vh;
+    height: 80vh;
+    gap: 10px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.dasgal3{
+    background-color: aquamarine;
+    gap: 10px;
+    height: 95vh;
+    width: 95vh;
+    display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.dasgal4{
+    background-color: aquamarine;
+    width: 95%;
+    height: 95vh;
+    gap: 10px;
+    display: flex;
+    align-items: end;
+}
+.dasgal5{
+    background-color: aquamarine;
+    width: 95%;
+    height: 95vh;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.dasgal6{
+    background-color: aquamarine;
+    width: 95%;
+    height: 95vh;
+    gap: 10px;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    justify-content: end;
+}
+.bigboxes1{
+    background-color: aquamarine;
+    width: 95%;
+    height: 95vh;
+    gap: 10px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.bigboxes2{
+    background-color: rgb(255, 0, 0);
+    width: 95%;
+    height: 95vh;
+    gap: 10px;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.dasgal7{
+    background-color: aquamarine;
+    width: 95%;
+    height: 95vh;
+    gap: 10px;
+    display: flex;
+}
