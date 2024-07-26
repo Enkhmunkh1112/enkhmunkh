@@ -47,7 +47,7 @@
   }
   .filter {
     display: flex;
-    width: 100vw;
+    width: 90vw;
     height: 5vh;
     justify-content: center;
     background-color: rgb(150, 150, 150);
@@ -82,7 +82,7 @@
     justify-content: center;
     align-items: center;
   }
-  .image1 img{
+  .image1 img {
     height: 225px;
     width: 400px;
   }
@@ -128,6 +128,9 @@
     width: 250px;
     height: 128;
   }
+  .v{
+    width: 250px;
+  }
 }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .topi {
@@ -157,7 +160,7 @@
     flex-wrap: wrap;
     display: flex;
     height: 100vh;
-    width: 100vw;
+    width: 90vw;
   }
   .smt {
     display: flex;
@@ -178,7 +181,7 @@
   }
   .filter {
     display: flex;
-    width: 90vw;
+    width: 10px;
     height: 5vh;
     justify-content: center;
     background-color: rgb(150, 150, 150);
@@ -212,12 +215,11 @@
     justify-content: center;
     align-items: center;
   }
-.image1 img{
-  width:210px ;
-  height: 125px;
-
-}
-  .desc{
+  .image1 img {
+    width: 210px;
+    height: 125px;
+  }
+  .desc {
     display: flex;
   }
   .a {
@@ -264,10 +266,10 @@
     width: 250px;
     height: 128;
   }
-  .words{
+  .words {
     width: 100px;
   }
-  div .b p{
-    visibility:hidden;
+  div .b p {
+    visibility: hidden;
   }
 }

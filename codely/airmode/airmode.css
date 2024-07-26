@@ -1,0 +1,16 @@
+section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#image1,
+#image2 {
+  margin: 0;
+}
+#image1 {
+  position: absolute;
+  top: 22%;
+  opacity: 0.5;
+}

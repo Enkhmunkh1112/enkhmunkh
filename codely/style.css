@@ -1,0 +1,186 @@
+html {
+    scroll-behavior: smooth;
+  }
+  /* Дуртай фонтоо оруулаарай */
+body{
+    font-family: 'Montserrat', sans-serif; 
+    margin: 0 60px;
+}
+header {
+    height: 70px;
+    display: flex;
+    /* margin-top: -50px; */
+    padding: 0 60px;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.8   );
+}
+main{
+    /* margin-top: 30px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav {
+    display: flex;
+}
+nav a {
+    padding: 10px 10px;
+}
+a {
+    text-decoration: none;
+    color: #737373;
+    padding-right: 21px;
+}
+#home {
+    display: flex;
+    align-items: center;
+}
+.texts {
+display: flex;
+flex-direction: column;
+}
+
+.name{
+    color: #11C86D;
+    font-size: 45px;
+    font-weight: 600;
+    display: flex;
+}
+.name p {
+    color: #333;
+    margin: 0;
+    margin-left: 20px;
+}
+.path {
+    color: #11C86D;
+}
+hr{
+    height:2px;
+    border-width:0;
+    color: #11C86D;
+    background-color:#11C86D;
+    margin-bottom: 30px;
+}
+
+.contact-buttons{
+    padding: 5px 0;
+    text-align: center;
+    color: #11C86D;
+    transition: 0.2s ease-in;
+    border: 2px solid #59ce94;
+    width: 150px;
+}
+.introduction {
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    justify-content: space-around;
+}
+/* about хэсгийн css */
+.hello1{
+    font-weight: 600;
+    font-size: 20px;
+}
+.hello-container{
+    width: 400px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+}
+.skill-card{
+    width: 140px;
+    height: 160px;
+    border: 1px solid #11C86D;
+}
+.skill-header{
+    padding: 10px 0;
+    border-bottom: 1px solid #11C86D;
+    text-align: center;
+    font-weight: 600;
+}
+.skill-details {
+    list-style-type: none;
+    padding: 10px;
+}
+/* about/hobby хэсгийн css */
+.hobby-img{
+    height: auto;
+    width: 400px;
+}
+.hobby-header{
+    font-size: 20px;
+    font-weight: 600;
+}
+.hobby-container{
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hobby-desc{
+    width: 30vw;
+}
+/* works хэсгийн css */
+.work-container{
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+}
+.work-card{
+    border: 1px solid #11C86D;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    padding-bottom: 20px;
+}
+.work-img{
+    width: 300px;
+    height: 180px;
+    object-fit: contain
+}
+.languages{
+    border-bottom: 1px solid #11C86D;
+}
+.work-header{
+    border-bottom: 1px solid #11C86D;
+    padding-bottom: 10px;
+}
+.visit{
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #11C86D;
+    padding: 0;
+    color: black;
+}
+/* contacts хэсгийн css */
+.contact-container{
+    width: 90vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.leftSide{
+    display: flex;
+    flex-direction: column;
+}
+.leftSide a{
+    color: black;
+    padding-top: 20px;
+}
+.copyright{
+    width: 90vw;
+    color: #737373;
+    text-align: center;
+}
