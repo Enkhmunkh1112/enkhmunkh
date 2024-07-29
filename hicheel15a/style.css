@@ -1,0 +1,58 @@
+a {
+  text-decoration: none;
+}
+header {
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+#a {
+  width: 60px;
+  height: 60px;
+}
+#halp {
+  border-left: #ffff solid;
+  color: #ffff;
+}
+.diver {
+  display: flex;
+}
+.devir {
+  display: flex;
+}
+* {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+header h3 {
+  color: #ffff;
+}
+.light {
+  display: flex;
+  background-color: #dadbf1;
+    align-items: center;
+  flex-direction: column;
+}
+main {
+  width: 100vw;
+  height: 80vh;
+}
+footer {
+  width: 100vw;
+  height: 10vh;
+}
+body {
+  margin: 0cap;
+}
+.searchbar {
+  width: 40vw;
+  height: 10vh;
+  display: flex;
+  border: 2px solid #b1b1b1;
+  border-radius: 30px;
+}

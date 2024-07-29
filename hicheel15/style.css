@@ -1,0 +1,53 @@
+#erm {
+  width: 150px;
+  height: 40px;
+}
+.eerm {
+  display: flex;
+  align-items: center;
+}
+.sign {
+  font-size: large;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100vw;
+  height: 20vh;
+  background-color: black;
+}
+
+* {
+  margin: 0ch;
+}
+#hiea{
+    align-items: end;
+    width:880px;
+    height:837px;
+}
+#real{
+    color: #ffff;
+    font-size:15vh;
+}
+.seethis{
+    background-color: black;
+    display: flex;
+}
+main{
+    height: 60vh;
+    width: 100vw;
+}
+.abhaba{
+    display: flex;
+    flex-direction: column;
+}
+.oops{
+    height: 60px;
+}
+.sec2{
+    background-color: grey;
+    display: flex;
+    
+}

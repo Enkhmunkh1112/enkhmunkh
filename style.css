@@ -69,10 +69,15 @@ a {
   font-style: normal;
 }
 footer {
-  height: 100px;
+  height: 200px;
   width: 100vw;
   background: #142d4c;
 }
 * {
   box-sizing: border-box;
+}
+.aasasa{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
