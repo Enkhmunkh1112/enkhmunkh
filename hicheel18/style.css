@@ -1,92 +1,158 @@
-header{
-    width: 100vw;
-    height:10vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: white;
-    border: #ffffff solid 1px;
+header {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: white;
+  border: #ffffff solid 1px;
+  
 }
-*{
-    margin: 0cm;
+* {
+  margin: 0cm;
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
 }
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
-.Products:hover{
- .rt{
+.Products:hover {
+  .rt {
     visibility: visible;
- }
+  }
 }
-.Products{
-    display: flex;
-    flex-direction: column;
-    
+.Products {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: border-box;
+  width: 200px;
+  position: absolute;
+  bottom: 550px;
+  right: 1000px;
 }
-#loco{
-    width: 110px;
+#loco {
+  width: 110px;
 }
-.rt{
-    visibility: hidden;
+.rt {
+  visibility: hidden;
 }
-.r:hover{
-    .rte{visibility: visible;
-
-    }
+.r:hover {
+  .rte {
+    visibility: visible;
+  }
 }
-.rte{
-    visibility: hidden;
+.rte {
+  visibility: hidden;
 }
-main{
-    margin-top: 100px;
-    height: 50vh;
-    width: 100vw;
+main {
+  margin-top: 100px;
+  height: 50vh;
+  width: 100vw;
 }
-.yw{
-    border: 1px solid #00b189;
-    border-radius: 5px;
-    background-color: rgb(255, 255, 255);
-    color: #00b189;
-    height: 50px;
-    width: 125px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.yw {
+  border: 1px solid #00b189;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  color: #00b189;
+  height: 50px;
+  width: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.yw:hover{
-    background-color: #00b189;
-    color: white;
+.yw:hover {
+  background-color: #00b189;
+  color: white;
 }
-.ye{
-    border: 1px solid #00b189;
-    border-radius: 5px;
-    background-color: #00b189;
-    color: #ffffff;
-    height: 50px;
-    width: 125px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.ye {
+  border: 1px solid #00b189;
+  border-radius: 5px;
+  background-color: #00b189;
+  color: #ffffff;
+  height: 50px;
+  width: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.grad{
-    border: rgb(178, 178, 178) solid 1px;
-    border-radius: 3px;
-    width: 300px;
-    height: 600px;
-    padding-left: 50px;
-    padding-right: 50px;
+.grad {
+  display: flex;
+  border: rgb(178, 178, 178) solid 1px;
+  border-radius: 3px;
+  width: 280px;
+  height: 700px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 50px;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
 }
-.pcs{
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    
+.pcs {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
 }
-.red{
-    border-bottom: #00b189 2px solid;
+.red {
+  border-bottom: #00b189 2px solid;
+}
+.r {
+  width: 200px;
+  height: 100px;
+  border: 1px solid grey;
+}
+#ty {
+  border: 1px grey solid;
+  width: 200px;
+  height: 100px;
+}
+#ti {
+}
+.fgu{
+  display: flex;
+  border: #00b189 1px solid;
+  background-color: #00b189;
+  border-radius: 3px;
+  width: 26vh;
+  height: 7vh;
+  align-items: center;
+  justify-content: center;
+}
+#ftu{
+  color: #ffffff;
+}
+.fgu:hover{
+  background-color: #008c6b;
+}
+main h1{
+  text-align: center;
+}
+.rad{
+  width: 20vw;
+  height: 100px;
+}
+.rud{
+   width: 20vw;
+  height: 600px;
+  list-style-type:;
+}
+.frd{
+  display: flex;
+  flex-direction: column;
+  border: 1px #ffffff transparent;
+  width: 80vw;
+  height: 20vh;
+  align-items: start;
+}
+.rtgd{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.fred{
+  display: flex;
 }
